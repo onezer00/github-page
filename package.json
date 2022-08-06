@@ -2,7 +2,7 @@
   "name": "exemple-react-router",
   "version": "0.1.0",
   "private": true,
-  "homepage": "github-page/",
+  "homepage": "https://onezer00.github.io/github-page/",
   "dependencies": {
     "babel-loader": "^8.0.5",
     "node-sass": "^4.14.1",
