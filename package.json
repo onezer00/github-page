@@ -2,17 +2,27 @@
   "name": "exemple-react-router",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://onezer00.github.io",
   "dependencies": {
+    "babel-loader": "^8.0.5",
+    "node-sass": "^4.14.1",
     "react": "^16.8.1",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "^16.8.1",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.4"
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "2.1.4",
+    "react-transition-group": "^4.4.2",
+    "scss": "^0.2.4",
+    "webpack": "^4.28.3",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -22,5 +32,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
